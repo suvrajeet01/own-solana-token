@@ -1,0 +1,758 @@
+gitpod /workspace/own-solana-token (trunk) $ cargo install spl-token-cli
+    Updating crates.io index
+  Downloaded spl-token-cli v2.2.0
+  Downloaded 1 crate (80.0 KB) in 0.34s
+  Installing spl-token-cli v2.2.0
+  Downloaded Inflector v0.11.4
+  Downloaded digest v0.10.6
+  Downloaded derivation-path v0.2.0
+  Downloaded aead v0.4.3
+  Downloaded crossbeam-epoch v0.9.13
+  Downloaded aes-gcm-siv v0.10.3
+  Downloaded bzip2 v0.4.4
+  Downloaded bytes v1.3.0
+  Downloaded solana_rbpf v0.2.31
+  Downloaded aho-corasick v0.7.20
+  Downloaded wasm-bindgen-shared v0.2.83
+  Downloaded untrusted v0.7.1
+  Downloaded wasm-bindgen-macro-support v0.2.83
+  Downloaded adler v1.0.2
+  Downloaded autocfg v1.1.0
+  Downloaded url v2.3.1
+  Downloaded unicode-ident v1.0.6
+  Downloaded subtle v2.4.1
+  Downloaded tower-service v0.3.2
+  Downloaded crossbeam-utils v0.8.14
+  Downloaded tracing-core v0.1.30
+  Downloaded wasm-bindgen-backend v0.2.83
+  Downloaded version_check v0.9.4
+  Downloaded digest v0.9.0
+  Downloaded void v1.0.2
+  Downloaded block-buffer v0.9.0
+  Downloaded block-padding v0.2.1
+  Downloaded unicode-bidi v0.3.8
+  Downloaded unicode-normalization v0.1.22
+  Downloaded time v0.1.45
+  Downloaded wasm-bindgen v0.2.83
+  Downloaded solana-zk-token-proof-program v1.14.6
+  Downloaded spki v0.5.4
+  Downloaded enum-iterator-derive v0.8.1
+  Downloaded unreachable v1.0.0
+  Downloaded utf-8 v0.7.6
+  Downloaded wasm-bindgen-macro v0.2.83
+  Downloaded zeroize v1.3.0
+  Downloaded yasna v0.5.1
+  Downloaded webpki v0.22.0
+  Downloaded x509-parser v0.14.0
+  Downloaded asn1-rs-impl v0.1.0
+  Downloaded uriparse v0.6.4
+  Downloaded tiny-bip39 v0.8.2
+  Downloaded strsim v0.10.0
+  Downloaded tempfile v3.3.0
+  Downloaded cc v1.0.78
+  Downloaded thread_local v1.1.4
+  Downloaded thiserror-impl v1.0.38
+  Downloaded typenum v1.16.0
+  Downloaded solana-rayon-threadlimit v1.14.6
+  Downloaded spl-token v3.5.0
+  Downloaded spl-token-client v0.3.0
+  Downloaded solana-sdk-macro v1.14.6
+  Downloaded dlopen_derive v0.1.4
+  Downloaded dirs-sys-next v0.1.2
+  Downloaded textwrap v0.11.0
+  Downloaded tokio-macros v1.8.2
+  Downloaded vec_map v0.8.2
+  Downloaded tarpc v0.29.0
+  Downloaded termcolor v1.1.3
+  Downloaded xattr v0.2.3
+  Downloaded crypto-common v0.1.6
+  Downloaded idna v0.3.0
+  Downloaded tinyvec v1.6.0
+  Downloaded toml v0.5.10
+  Downloaded syn v1.0.107
+  Downloaded solana-remote-wallet v1.14.6
+  Downloaded tungstenite v0.17.3
+  Downloaded tokio-stream v0.1.11
+  Downloaded tokio-serde v0.8.0
+  Downloaded tokio-util v0.7.2
+  Downloaded enum_dispatch v0.3.9
+  Downloaded tokio-util v0.6.10
+  Downloaded solana-metrics v1.14.6
+  Downloaded universal-hash v0.4.1
+  Downloaded rand_chacha v0.2.2
+  Downloaded yaml-rust v0.4.5
+  Downloaded terminal_size v0.1.17
+  Downloaded tar v0.4.38
+  Downloaded constant_time_eq v0.2.4
+  Downloaded const-oid v0.7.1
+  Downloaded spin v0.5.2
+  Downloaded miniz_oxide v0.6.2
+  Downloaded num_cpus v1.15.0
+  Downloaded num-bigint v0.2.6
+  Downloaded webpki-roots v0.22.6
+  Downloaded pkg-config v0.3.26
+  Downloaded zstd v0.11.2+zstd.1.5.2
+  Downloaded quote v0.6.13
+  Downloaded serde_bytes v0.11.8
+  Downloaded scroll_derive v0.11.0
+  Downloaded tokio v1.14.1
+  Downloaded rand_core v0.6.4
+  Downloaded zeroize_derive v1.3.3
+  Downloaded ouroboros_macro v0.15.5
+  Downloaded getrandom v0.2.8
+  Downloaded ryu v1.0.12
+  Downloaded solana-stake-program v1.14.6
+  Downloaded quinn-udp v0.1.4
+  Downloaded num_enum_derive v0.5.7
+  Downloaded index_list v0.2.7
+  Downloaded strum_macros v0.24.3
+  Downloaded rayon-core v1.10.1
+  Downloaded form_urlencoded v1.1.0
+  Downloaded syn v0.15.44
+  Downloaded try-lock v0.2.3
+  Downloaded qstring v0.7.2
+  Downloaded proc-macro2 v0.4.30
+  Downloaded hyper v0.14.23
+  Downloaded zstd-safe v5.0.2+zstd.1.5.2
+  Downloaded scroll v0.11.0
+  Downloaded zstd-sys v2.0.4+zstd.1.5.2
+  Downloaded rustls v0.20.7
+  Downloaded solana-address-lookup-table-program v1.14.6
+  Downloaded proc-macro-crate v1.2.1
+  Downloaded opaque-debug v0.3.0
+  Downloaded quote v1.0.23
+  Downloaded percent-encoding v2.2.0
+  Downloaded hidapi v1.5.0
+  Downloaded solana-bpf-loader-program v1.14.6
+  Downloaded solana-cli-output v1.14.6
+  Downloaded pin-project-internal v1.0.12
+  Downloaded pretty-hex v0.3.0
+  Downloaded httpdate v1.0.2
+  Downloaded parking_lot_core v0.8.6
+  Downloaded solana-banks-client v1.14.6
+  Downloaded solana-cli-config v1.14.6
+  Downloaded sct v0.7.0
+  Downloaded sharded-slab v0.1.4
+  Downloaded opentelemetry v0.17.0
+  Downloaded remove_dir_all v0.5.3
+  Downloaded sha3 v0.9.1
+  Downloaded rustc-demangle v0.1.21
+  Downloaded pin-project-lite v0.2.9
+  Downloaded regex-syntax v0.6.28
+  Downloaded solana-bucket-map v1.14.6
+  Downloaded solana-clap-utils v1.14.6
+  Downloaded solana-program v1.14.6
+  Downloaded signature v1.6.4
+  Downloaded solana-config-program v1.14.6
+  Downloaded solana-faucet v1.14.6
+  Downloaded solana-logger v1.14.6
+  Downloaded sha2 v0.9.9
+  Downloaded serde_derive v1.0.152
+  Downloaded solana-frozen-abi-macro v1.14.6
+  Downloaded solana-measure v1.14.6
+  Downloaded solana-banks-server v1.14.6
+  Downloaded solana-client v1.14.6
+  Downloaded solana-frozen-abi v1.14.6
+  Downloaded sized-chunks v0.6.5
+  Downloaded ring v0.16.20
+  Downloaded rand v0.7.3
+  Downloaded socket2 v0.4.7
+  Downloaded polyval v0.5.3
+  Downloaded plain v0.2.3
+  Downloaded solana-compute-budget-program v1.14.6
+  Downloaded rpassword v6.0.1
+  Downloaded pkcs8 v0.8.0
+  Downloaded rand v0.8.5
+  Downloaded rayon v1.6.1
+  Downloaded rand_core v0.5.1
+  Downloaded num-traits v0.2.15
+  Downloaded memoffset v0.6.5
+  Downloaded solana-banks-interface v1.14.6
+  Downloaded signal-hook-registry v1.4.0
+  Downloaded serde_yaml v0.8.26
+  Downloaded solana-account-decoder v1.14.6
+  Downloaded sha2 v0.10.6
+  Downloaded sha-1 v0.10.1
+  Downloaded quinn v0.8.5
+  Downloaded number_prefix v0.4.0
+  Downloaded rustc-hash v1.1.0
+  Downloaded memchr v2.5.0
+  Downloaded pin-utils v0.1.0
+  Downloaded modular-bitfield-impl v0.11.2
+  Downloaded memmap2 v0.5.8
+  Downloaded num-rational v0.2.4
+  Downloaded rustls-native-certs v0.6.2
+  Downloaded rusticata-macros v4.1.0
+  Downloaded reqwest v0.11.13
+  Downloaded num-bigint v0.4.3
+  Downloaded rustversion v1.0.11
+  Downloaded libsecp256k1-gen-ecmult v0.2.1
+  Downloaded merlin v3.0.0
+  Downloaded log v0.4.17
+  Downloaded parking_lot v0.11.2
+  Downloaded os_str_bytes v6.4.1
+  Downloaded libsecp256k1-core v0.2.2
+  Downloaded libloading v0.7.4
+  Downloaded httparse v1.8.0
+  Downloaded percentage v0.1.0
+  Downloaded jobserver v0.1.25
+  Downloaded pin-project v1.0.12
+  Downloaded lazy_static v1.4.0
+  Downloaded ppv-lite86 v0.2.17
+  Downloaded pbkdf2 v0.11.0
+  Downloaded once_cell v1.17.0
+  Downloaded minimal-lexical v0.2.1
+  Downloaded smallvec v1.10.0
+  Downloaded slab v0.4.7
+  Downloaded pbkdf2 v0.4.0
+  Downloaded oid-registry v0.6.1
+  Downloaded pem v1.1.0
+  Downloaded parking_lot_core v0.9.5
+  Downloaded humantime v2.1.0
+  Downloaded heck v0.4.0
+  Downloaded mime v0.3.16
+  Downloaded hmac v0.12.1
+  Downloaded ipnet v2.7.0
+  Downloaded libc v0.2.139
+  Downloaded proc-macro-crate v0.1.5
+  Downloaded openssl-probe v0.1.5
+  Downloaded itoa v1.0.5
+  Downloaded hashbrown v0.11.2
+  Downloaded feature-probe v0.1.1
+  Downloaded proc-macro-error v1.0.4
+  Downloaded h2 v0.3.15
+  Downloaded gethostname v0.2.3
+  Downloaded solana-zk-token-sdk v1.14.6
+  Downloaded rcgen v0.9.3
+  Downloaded lz4-sys v1.9.4
+  Downloaded hyper-rustls v0.23.2
+  Downloaded iana-time-zone v0.1.53
+  Downloaded rustls-pemfile v1.0.1
+  Downloaded inout v0.1.3
+  Downloaded memoffset v0.7.1
+  Downloaded jsonrpc-core v18.0.0
+  Downloaded hmac-drbg v0.3.0
+  Downloaded futures v0.3.25
+  Downloaded hmac v0.8.1
+  Downloaded goblin v0.5.4
+  Downloaded sha3 v0.10.6
+  Downloaded hash32 v0.2.1
+  Downloaded ed25519-dalek-bip32 v0.2.0
+  Downloaded filetime v0.2.19
+  Downloaded num-derive v0.3.3
+  Downloaded libsecp256k1-gen-genmult v0.2.1
+  Downloaded fnv v1.0.7
+  Downloaded http-body v0.4.5
+  Downloaded histogram v0.6.9
+  Downloaded getrandom v0.1.16
+  Downloaded flate2 v1.0.25
+  Downloaded linked-hash-map v0.5.6
+  Downloaded generic-array v0.14.6
+  Downloaded quinn-proto v0.8.4
+  Downloaded lock_api v0.4.9
+  Downloaded semver v1.0.16
+  Downloaded proc-macro-error-attr v1.0.4
+  Downloaded num-iter v0.1.43
+  Downloaded im v15.1.0
+  Downloaded futures-core v0.3.25
+  Downloaded proc-macro2 v1.0.49
+  Downloaded instant v0.1.12
+  Downloaded indexmap v1.9.2
+  Downloaded rand_chacha v0.3.1
+  Downloaded lz4 v1.24.0
+  Downloaded ouroboros v0.15.5
+  Downloaded nix v0.24.3
+  Downloaded mio v0.7.14
+  Downloaded rand_xoshiro v0.6.0
+  Downloaded num_enum v0.5.7
+  Downloaded futures-executor v0.3.25
+  Downloaded fastrand v1.8.0
+  Downloaded parking_lot v0.12.1
+  Downloaded num-complex v0.2.4
+  Downloaded solana-send-transaction-service v1.14.6
+  Downloaded solana-runtime v1.14.6
+  Downloaded rustc_version v0.4.0
+  Downloaded itertools v0.10.5
+  Downloaded hashbrown v0.12.3
+  Downloaded futures-io v0.3.25
+  Downloaded libsecp256k1 v0.6.0
+  Downloaded serde v1.0.152
+  Downloaded nom v7.1.2
+  Downloaded modular-bitfield v0.11.2
+  Downloaded brotli v3.3.4
+  Downloaded encoding_rs v0.8.31
+  Downloaded curve25519-dalek v3.2.1
+  Downloaded borsh-schema-derive-internal v0.9.3
+  Downloaded bzip2-sys v0.1.11+1.0.8
+  Downloaded num v0.2.1
+  Downloaded dlopen v0.1.8
+  Downloaded displaydoc v0.2.3
+  Downloaded solana-program-runtime v1.14.6
+  Downloaded keccak v0.1.3
+  Downloaded der v0.5.1
+  Downloaded tokio-tungstenite v0.17.2
+  Downloaded solana-version v1.14.6
+  Downloaded solana-net-utils v1.14.6
+  Downloaded serde_urlencoded v0.7.1
+  Downloaded rustls-pemfile v0.2.1
+  Downloaded num-integer v0.1.45
+  Downloaded dialoguer v0.10.2
+  Downloaded tokio-rustls v0.23.4
+  Downloaded futures-macro v0.3.25
+  Downloaded aes v0.7.5
+  Downloaded dashmap v4.0.2
+  Downloaded caps v0.5.5
+  Downloaded atty v0.2.14
+  Downloaded enum-ordinalize v3.1.12
+  Downloaded crossbeam-channel v0.5.6
+  Downloaded clap v3.2.23
+  Downloaded block-buffer v0.10.3
+  Downloaded crc32fast v1.3.2
+  Downloaded env_logger v0.9.3
+  Downloaded indicatif v0.16.2
+  Downloaded event-listener v2.5.3
+  Downloaded bytemuck v1.12.3
+  Downloaded educe v0.4.20
+  Downloaded ed25519-dalek v1.0.1
+  Downloaded cipher v0.3.0
+  Downloaded fxhash v0.2.1
+  Downloaded ed25519 v1.5.2
+  Downloaded cipher v0.4.3
+  Downloaded dirs-next v2.0.0
+  Downloaded crypto-mac v0.8.0
+  Downloaded data-encoding v2.3.3
+  Downloaded spl-token-2022 v0.5.0
+  Downloaded solana-perf v1.14.6
+  Downloaded serde_json v1.0.91
+  Downloaded scopeguard v1.1.0
+  Downloaded same-file v1.0.6
+  Downloaded regex v1.7.0
+  Downloaded futures-channel v0.3.25
+  Downloaded ctr v0.8.0
+  Downloaded http v0.2.8
+  Downloaded crunchy v0.2.2
+  Downloaded futures-util v0.3.25
+  Downloaded enum-iterator v0.8.1
+  Downloaded solana-transaction-status v1.14.6
+  Downloaded eager v0.1.0
+  Downloaded solana-program-test v1.14.6
+  Downloaded clap v2.34.0
+  Downloaded brotli-decompressor v2.3.2
+  Downloaded thiserror v1.0.38
+  Downloaded bumpalo v3.11.1
+  Downloaded combine v3.8.1
+  Downloaded futures-task v0.3.25
+  Downloaded either v1.8.0
+  Downloaded blake3 v1.3.3
+  Downloaded chrono-humanize v0.2.2
+  Downloaded asn1-rs v0.5.1
+  Downloaded tracing-opentelemetry v0.17.4
+  Downloaded strum v0.24.1
+  Downloaded der-parser v8.1.0
+  Downloaded bv v0.11.1
+  Downloaded unicode-xid v0.1.0
+  Downloaded crossbeam-deque v0.8.2
+  Downloaded console v0.15.4
+  Downloaded base64ct v1.5.3
+  Downloaded unicode-xid v0.2.4
+  Downloaded static_assertions v1.1.0
+  Downloaded base64 v0.12.3
+  Downloaded synstructure v0.12.6
+  Downloaded borsh v0.9.3
+  Downloaded strsim v0.8.0
+  Downloaded bs58 v0.4.0
+  Downloaded console v0.14.1
+  Downloaded bytemuck_derive v1.3.0
+  Downloaded solana-vote-program v1.14.6
+  Downloaded anyhow v1.0.68
+  Downloaded solana-streamer v1.14.6
+  Downloaded solana-sdk v1.14.6
+  Downloaded futures-sink v0.3.25
+  Downloaded bincode v1.3.3
+  Downloaded walkdir v2.3.2
+  Downloaded tracing-attributes v0.1.23
+  Downloaded textwrap v0.16.0
+  Downloaded borsh-derive v0.9.3
+  Downloaded assert_matches v1.5.0
+  Downloaded arrayref v0.3.6
+  Downloaded ahash v0.7.6
+  Downloaded async-compression v0.3.15
+  Downloaded async-trait v0.1.60
+  Downloaded tinyvec_macros v0.1.0
+  Downloaded borsh-derive-internal v0.9.3
+  Downloaded bitmaps v2.1.0
+  Downloaded ansi_term v0.12.1
+  Downloaded ascii v0.9.3
+  Downloaded async-mutex v1.4.0
+  Downloaded arrayvec v0.7.2
+  Downloaded asn1-rs-derive v0.4.0
+  Downloaded alloc-no-stdlib v2.0.4
+  Downloaded aliasable v0.1.3
+  Downloaded spl-token-2022 v0.4.2
+  Downloaded spl-associated-token-account v1.1.1
+  Downloaded alloc-stdlib v0.2.2
+  Downloaded want v0.3.0
+  Downloaded unicode-width v0.1.10
+  Downloaded tracing-subscriber v0.3.16
+  Downloaded tarpc-plugins v0.12.0
+  Downloaded symlink v0.1.0
+  Downloaded dir-diff v0.3.2
+  Downloaded tracing v0.1.37
+  Downloaded spl-memo v3.0.1
+  Downloaded chrono v0.4.23
+  Downloaded base64 v0.13.1
+  Downloaded cpufeatures v0.2.5
+  Downloaded bitflags v1.3.2
+  Downloaded time-macros v0.2.6
+  Downloaded time-core v0.1.0
+  Downloaded time v0.3.17
+  Downloaded byteorder v1.4.3
+  Downloaded cfg-if v1.0.0
+  Downloaded clap_lex v0.2.4
+  Downloaded 406 crates (31.3 MB) in 1.95s (largest was `ring` at 5.1 MB)
+   Compiling proc-macro2 v1.0.49
+   Compiling unicode-ident v1.0.6
+   Compiling quote v1.0.23
+   Compiling syn v1.0.107
+   Compiling libc v0.2.139
+   Compiling autocfg v1.1.0
+   Compiling cfg-if v1.0.0
+   Compiling version_check v0.9.4
+   Compiling serde v1.0.152
+   Compiling serde_derive v1.0.152
+   Compiling typenum v1.16.0
+   Compiling memchr v2.5.0
+   Compiling once_cell v1.17.0
+   Compiling log v0.4.17
+   Compiling semver v1.0.16
+   Compiling scopeguard v1.1.0
+   Compiling subtle v2.4.1
+   Compiling thiserror v1.0.38
+   Compiling itoa v1.0.5
+   Compiling ppv-lite86 v0.2.17
+   Compiling lazy_static v1.4.0
+   Compiling generic-array v0.14.6
+   Compiling unicode-xid v0.2.4
+   Compiling num-traits v0.2.15
+   Compiling num-integer v0.1.45
+   Compiling byteorder v1.4.3
+   Compiling ahash v0.7.6
+   Compiling cpufeatures v0.2.5
+   Compiling crossbeam-utils v0.8.14
+   Compiling base64 v0.13.1
+   Compiling crunchy v0.2.2
+   Compiling tinyvec_macros v0.1.0
+   Compiling rustc_version v0.4.0
+   Compiling pin-project-lite v0.2.9
+   Compiling getrandom v0.1.16
+   Compiling tinyvec v1.6.0
+   Compiling memoffset v0.7.1
+   Compiling ryu v1.0.12
+   Compiling futures-core v0.3.25
+   Compiling opaque-debug v0.3.0
+   Compiling crossbeam-epoch v0.9.13
+   Compiling block-padding v0.2.1
+   Compiling serde_json v1.0.91
+   Compiling crossbeam-channel v0.5.6
+   Compiling lock_api v0.4.9
+   Compiling smallvec v1.10.0
+   Compiling percent-encoding v2.2.0
+   Compiling bytes v1.3.0
+   Compiling either v1.8.0
+   Compiling fnv v1.0.7
+   Compiling unicode-normalization v0.1.22
+   Compiling getrandom v0.2.8
+   Compiling num_cpus v1.15.0
+   Compiling jobserver v0.1.25
+   Compiling rayon-core v1.10.1
+   Compiling rand_core v0.6.4
+   Compiling rand_core v0.5.1
+   Compiling cc v1.0.78
+   Compiling wasm-bindgen-shared v0.2.83
+   Compiling hashbrown v0.12.3
+   Compiling rand_chacha v0.2.2
+   Compiling crossbeam-deque v0.8.2
+   Compiling slab v0.4.7
+   Compiling parking_lot_core v0.8.6
+   Compiling futures-sink v0.3.25
+   Compiling rustversion v1.0.11
+   Compiling rand v0.7.3
+   Compiling instant v0.1.12
+   Compiling anyhow v1.0.68
+   Compiling feature-probe v0.1.1
+   Compiling bumpalo v3.11.1
+   Compiling bitmaps v2.1.0
+   Compiling solana-frozen-abi-macro v1.14.6
+   Compiling aho-corasick v0.7.20
+   Compiling memoffset v0.6.5
+   Compiling tokio v1.14.1
+   Compiling im v15.1.0
+   Compiling bitflags v1.3.2
+   Compiling bv v0.11.1
+   Compiling futures-channel v0.3.25
+   Compiling futures-task v0.3.25
+   Compiling rayon v1.6.1
+   Compiling keccak v0.1.3
+   Compiling regex-syntax v0.6.28
+   Compiling arrayref v0.3.6
+   Compiling blake3 v1.3.3
+   Compiling parking_lot v0.11.2
+   Compiling rand_xoshiro v0.6.0
+   Compiling mio v0.7.14
+   Compiling signal-hook-registry v1.4.0
+   Compiling sized-chunks v0.6.5
+   Compiling solana-frozen-abi v1.14.6
+   Compiling constant_time_eq v0.2.4
+   Compiling arrayvec v0.7.2
+   Compiling wasm-bindgen v0.2.83
+   Compiling futures-util v0.3.25
+   Compiling solana-program v1.14.6
+   Compiling ring v0.16.20
+   Compiling hashbrown v0.11.2
+   Compiling memmap2 v0.5.8
+   Compiling atty v0.2.14
+   Compiling base64 v0.12.3
+   Compiling pin-utils v0.1.0
+   Compiling futures-io v0.3.25
+   Compiling rustc-hash v1.1.0
+   Compiling bs58 v0.4.0
+   Compiling itertools v0.10.5
+   Compiling signature v1.6.4
+   Compiling humantime v2.1.0
+   Compiling termcolor v1.1.3
+   Compiling time v0.1.45
+   Compiling ed25519 v1.5.2
+   Compiling tracing-core v0.1.30
+   Compiling spin v0.5.2
+   Compiling untrusted v0.7.1
+   Compiling iana-time-zone v0.1.53
+   Compiling regex v1.7.0
+   Compiling solana-sdk v1.14.6
+   Compiling derivation-path v0.2.0
+   Compiling uriparse v0.6.4
+   Compiling qstring v0.7.2
+   Compiling synstructure v0.12.6
+   Compiling wasm-bindgen-backend v0.2.83
+   Compiling borsh-derive-internal v0.9.3
+   Compiling borsh-schema-derive-internal v0.9.3
+   Compiling assert_matches v1.5.0
+   Compiling rustls v0.20.7
+   Compiling indexmap v1.9.2
+   Compiling http v0.2.8
+   Compiling httparse v1.8.0
+   Compiling socket2 v0.4.7
+   Compiling form_urlencoded v1.1.0
+   Compiling env_logger v0.9.3
+   Compiling wasm-bindgen-macro-support v0.2.83
+   Compiling unicode-bidi v0.3.8
+   Compiling solana-logger v1.14.6
+   Compiling rustls-pemfile v1.0.1
+   Compiling idna v0.3.0
+   Compiling alloc-no-stdlib v2.0.4
+   Compiling crc32fast v1.3.2
+   Compiling alloc-stdlib v0.2.2
+   Compiling url v2.3.1
+   Compiling try-lock v0.2.3
+   Compiling adler v1.0.2
+   Compiling want v0.3.0
+   Compiling miniz_oxide v0.6.2
+   Compiling brotli-decompressor v2.3.2
+   Compiling http-body v0.4.5
+   Compiling encoding_rs v0.8.31
+   Compiling httpdate v1.0.2
+   Compiling tower-service v0.3.2
+   Compiling mime v0.3.16
+   Compiling ipnet v2.7.0
+   Compiling thiserror-impl v1.0.38
+   Compiling zeroize_derive v1.3.3
+   Compiling tokio-macros v1.8.2
+   Compiling futures-macro v0.3.25
+   Compiling bytemuck_derive v1.3.0
+   Compiling wasm-bindgen-macro v0.2.83
+   Compiling num-derive v0.3.3
+   Compiling zeroize v1.3.0
+   Compiling solana-sdk-macro v1.14.6
+   Compiling tracing-attributes v0.1.23
+   Compiling brotli v3.3.4
+   Compiling bytemuck v1.12.3
+   Compiling flate2 v1.0.25
+   Compiling enum-iterator-derive v0.8.1
+   Compiling gethostname v0.2.3
+   Compiling solana-program-runtime v1.14.6
+   Compiling libloading v0.7.4
+   Compiling webpki v0.22.0
+   Compiling sct v0.7.0
+   Compiling eager v0.1.0
+   Compiling rand_chacha v0.3.1
+   Compiling webpki-roots v0.22.6
+   Compiling num-bigint v0.4.3
+   Compiling rand v0.8.5
+   Compiling pkg-config v0.3.26
+   Compiling enum-iterator v0.8.1
+   Compiling tracing v0.1.37
+   Compiling solana-vote-program v1.14.6
+   Compiling proc-macro2 v0.4.30
+   Compiling unicode-width v0.1.10
+   Compiling unicode-xid v0.1.0
+   Compiling merlin v3.0.0
+   Compiling syn v0.15.44
+   Compiling time-core v0.1.0
+   Compiling time-macros v0.2.6
+   Compiling zstd-sys v2.0.4+zstd.1.5.2
+   Compiling remove_dir_all v0.5.3
+   Compiling fastrand v1.8.0
+   Compiling async-trait v0.1.60
+   Compiling parking_lot_core v0.9.5
+   Compiling quote v0.6.13
+   Compiling tempfile v3.3.0
+   Compiling minimal-lexical v0.2.1
+   Compiling tokio-util v0.7.2
+   Compiling tokio-rustls v0.23.4
+   Compiling async-compression v0.3.15
+   Compiling time v0.3.17
+   Compiling futures-executor v0.3.25
+   Compiling nom v7.1.2
+   Compiling h2 v0.3.15
+   Compiling console v0.15.4
+   Compiling hidapi v1.5.0
+   Compiling nix v0.24.3
+   Compiling solana-rayon-threadlimit v1.14.6
+   Compiling num-bigint v0.2.6
+   Compiling solana-perf v1.14.6
+   Compiling zstd-safe v5.0.2+zstd.1.5.2
+error: failed to run custom build command for `hidapi v1.5.0`
+
+Caused by:
+  process didn't exit successfully: `/tmp/cargo-install9qLHKJ/release/build/hidapi-55eedd9804b44003/build-script-build` (exit status: 101)
+  --- stdout
+  cargo:rerun-if-env-changed=LIBUDEV_NO_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG
+  cargo:rerun-if-env-changed=PKG_CONFIG
+  cargo:rerun-if-env-changed=LIBUDEV_STATIC
+  cargo:rerun-if-env-changed=LIBUDEV_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_STATIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_ALL_DYNAMIC
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_PATH
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_LIBDIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64-unknown-linux-gnu
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR_x86_64_unknown_linux_gnu
+  cargo:rerun-if-env-changed=HOST_PKG_CONFIG_SYSROOT_DIR
+  cargo:rerun-if-env-changed=PKG_CONFIG_SYSROOT_DIR
+
+  --- stderr
+  thread 'main' panicked at 'Unable to find libudev: `"pkg-config" "--libs" "--cflags" "libudev"` did not exit successfully: exit status: 1
+  error: could not find system library 'libudev' required by the 'hidapi' crate
+
+  --- stderr
+  Package libudev was not found in the pkg-config search path.
+  Perhaps you should add the directory containing `libudev.pc'
+  to the PKG_CONFIG_PATH environment variable
+  No package 'libudev' found
+  ', /workspace/.cargo/registry/src/github.com-1ecc6299db9ec823/hidapi-1.5.0/build.rs:57:54
+  note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+warning: build failed, waiting for other jobs to finish...
+error: failed to compile `spl-token-cli v2.2.0`, intermediate artifacts can be found at `/tmp/cargo-install9qLHKJ`
+gitpod /workspace/own-solana-token (trunk) $ solana-keygen new --no-outfile
+bash: solana-keygen: command not found
+gitpod /workspace/own-solana-token (trunk) $ sh -c "$(curl -sSfL https://release.solana.com/v1.14.11/install)"
+downloading v1.14.11 installer
+  ✨ 1.14.11 initialized
+Adding 
+export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH" to /home/gitpod/.profile
+Adding 
+export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH" to /home/gitpod/.bash_profile
+
+Close and reopen your terminal to apply the PATH changes or run the following in your existing shell:
+  
+export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH"
+
+gitpod /workspace/own-solana-token (trunk) $ solana-keygen new --no-outfile
+bash: solana-keygen: command not found
+gitpod /workspace/own-solana-token (trunk) $ solana --version
+bash: solana: command not found
+gitpod /workspace/own-solana-token (trunk) $ sh -c "$(curl -sSfL https://release.solana.com/v1.14.11/install)"
+downloading v1.14.11 installer
+Install is up to date. 1.14.11 is the latest compatible release
+
+Please update your PATH environment variable to include the solana programs:
+    PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH"
+
+gitpod /workspace/own-solana-token (trunk) $ export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH"
+gitpod /workspace/own-solana-token (trunk) $ solana --version
+solana-cli 1.14.11 (src:61876755; feat:3036606309)
+gitpod /workspace/own-solana-token (trunk) $ solana-keygen new --no-outfile
+Generating a new keypair
+
+For added security, enter a BIP39 passphrase
+
+NOTE! This passphrase improves security of the recovery seed phrase NOT the
+keypair file itself, which is stored as insecure plain text
+
+BIP39 Passphrase (empty for none): 
+
+===============================================================================
+pubkey: 3X96HnCQCJK2Lbq8rvAiWUnKS12op7XCYujnHAmG542y
+===============================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+bargain crash family paper agent float reason chef opinion share tobacco hurdle
+===============================================================================
+gitpod /workspace/own-solana-token (trunk) $ solana config set --url <https://api.devnet.solana.com>
+bash: syntax error near unexpected token `newline'
+gitpod /workspace/own-solana-token (trunk) $ solana config set --url <https://api.devnet.solana.com>
+bash: syntax error near unexpected token `newline'
+gitpod /workspace/own-solana-token (trunk) $ solana config set --url <https://api.devnet.solana.com>
+bash: syntax error near unexpected token `newline'
+gitpod /workspace/own-solana-token (trunk) $ solana config set --url https://api.devnet.solana.com
+Config File: /home/gitpod/.config/solana/cli/config.yml
+RPC URL: https://api.devnet.solana.com 
+WebSocket URL: wss://api.devnet.solana.com/ (computed)
+Keypair Path: /home/gitpod/.config/solana/id.json 
+Commitment: confirmed 
+gitpod /workspace/own-solana-token (trunk) $ solana config get
+Config File: /home/gitpod/.config/solana/cli/config.yml
+RPC URL: https://api.devnet.solana.com 
+WebSocket URL: wss://api.devnet.solana.com/ (computed)
+Keypair Path: /home/gitpod/.config/solana/id.json 
+Commitment: confirmed 
+gitpod /workspace/own-solana-token (trunk) $ solana airdrop 1
+Error: Dynamic program error: No default signer found, run "solana-keygen new -o /home/gitpod/.config/solana/id.json" to create a new one
+gitpod /workspace/own-solana-token (trunk) $ solana-keygen new -o /home/gitpod/.config/solana/id.json
+Generating a new keypair
+
+For added security, enter a BIP39 passphrase
+
+NOTE! This passphrase improves security of the recovery seed phrase NOT the
+keypair file itself, which is stored as insecure plain text
+
+BIP39 Passphrase (empty for none): 
+
+Wrote new keypair to /home/gitpod/.config/solana/id.json
+====================================================================================
+pubkey: 577JauCHTzkj5xeXuYvE5hH7GMZc5Mj3uiSJD5pVchT2
+====================================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+dance fashion jacket version course suspect february bitter broken knee volcano make
+====================================================================================
+gitpod /workspace/own-solana-token (trunk) $ solana config get
+Config File: /home/gitpod/.config/solana/cli/config.yml
+RPC URL: https://api.devnet.solana.com 
+WebSocket URL: wss://api.devnet.solana.com/ (computed)
+Keypair Path: /home/gitpod/.config/solana/id.json 
+Commitment: confirmed 
+gitpod /workspace/own-solana-token (trunk) $ solana airdrop 1
+Requesting airdrop of 1 SOL
+
+Signature: 5VRPkjfsc8yYh7GxhAcMnC3xs1ouBDAqZidapgLzBPqbfJFXzzvkMm7VxMR4NaKie5GuLMtHE8KazKMqH9Bzv8TE
+
+1 SOL
+gitpod /workspace/own-solana-token (trunk) $ solana balance
+1 SOL
+gitpod /workspace/own-solana-token (trunk) $ 
