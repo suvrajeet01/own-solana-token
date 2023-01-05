@@ -1,0 +1,35 @@
+gitpod /workspace/own-solana-token (trunk) $ solana airdrop 1
+Requesting airdrop of 1 SOL
+
+Signature: 5VRPkjfsc8yYh7GxhAcMnC3xs1ouBDAqZidapgLzBPqbfJFXzzvkMm7VxMR4NaKie5GuLMtHE8KazKMqH9Bzv8TE
+
+1 SOL
+gitpod /workspace/own-solana-token (trunk) $ solana balance
+1 SOL
+gitpod /workspace/own-solana-token (trunk) $ spl-token create-token
+Creating token FhmY7Qa7G5TtNqQqdTpJg5AY3eZJSw9pLh3sLuKZeuvH under program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
+
+Address:  FhmY7Qa7G5TtNqQqdTpJg5AY3eZJSw9pLh3sLuKZeuvH
+Decimals:  9
+
+Signature: 2dTvdyG1bSPSMn8EyXSjsZTADqmRaA1d7FJk6H6ufUWSqt5uTPD16Jz93qcdKvKaEzWsprzsgc1Ly7RvuoDDnwWS
+
+gitpod /workspace/own-solana-token (trunk) $ spl-token create-account FhmY7Qa7G5TtNqQqdTpJg5AY3eZJSw9pLh3sLuKZeuvH
+Creating account Cw4jU2PuW7zYa4WUR2Gk37WKYovxDz58Lc6gcmzSaq6q
+
+Signature: 5GQSkqCvCwRa1K2XUim6EYfQ15AZUNy4FWHGyWPYCCiac74DvKcAETbMYxAmh3nPyZZ5NAH69AU2cMSYnyHfgYjt
+
+gitpod /workspace/own-solana-token (trunk) $ spl-token mint FhmY7Qa7G5TtNqQqdTpJg5AY3eZJSw9pLh3sLuKZeuvH 1000000
+Minting 1000000 tokens
+  Token: FhmY7Qa7G5TtNqQqdTpJg5AY3eZJSw9pLh3sLuKZeuvH
+  Recipient: Cw4jU2PuW7zYa4WUR2Gk37WKYovxDz58Lc6gcmzSaq6q
+
+Signature: YvGe77uBmSRLacQupgVeKPoZFHdabfC3wEteCrxZdcv328UHDVppianaWGVpqDpCoumpDmL5KCoS6ajwhZm9CeM
+
+gitpod /workspace/own-solana-token (trunk) $ solana config set --url https://api.mainnet-beta.solana.com
+Config File: /home/gitpod/.config/solana/cli/config.yml
+RPC URL: https://api.mainnet-beta.solana.com 
+WebSocket URL: wss://api.mainnet-beta.solana.com/ (computed)
+Keypair Path: /home/gitpod/.config/solana/id.json 
+Commitment: confirmed 
+gitpod /workspace/own-solana-token (trunk) $ 
